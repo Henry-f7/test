@@ -1,0 +1,14 @@
+body{
+    background-image: url(../../images/bedge_grunge.png);
+    background-size: 100% 100%;
+}
+
+.base-padding {
+    @include padding-10;
+    color: $white;
+}
+
+.text-bold {
+    font-size: 16px;
+    font-weight: 600;
+}

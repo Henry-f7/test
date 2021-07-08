@@ -1,0 +1,15 @@
+// External styles
+@import "./vendor/bootstrap";
+
+// Base styles
+@import "./base/fonts";
+@import "./base/variables";
+@import "./base/mixins";
+@import "./base/common";
+@import "./base/global";
+
+// Components
+@import "./components/work-descriptor/work-descriptor";
+
+// Pages
+@import "./pages/home/home";
