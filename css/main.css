@@ -11996,8 +11996,41 @@ body {
   font-weight: 600;
 }
 
-.navigation.col-8 {
+.Droptown-items {
+  background-color: rgba(68, 68, 68, 0.95);
+  text-decoration: none;
+}
+.Droptown-items::before {
+  content: "";
+  border-style: solid;
+  border-width: 0 9px 9px 9px;
+  border-color: transparent transparent #5e5e5e transparent;
+  display: inline-block;
+  height: 0;
+  position: absolute;
+  right: 13px;
+  top: -7px;
+  width: 0;
+}
+.Droptown-items a {
+  text-decoration: none;
+  color: white;
+}
+
+.Navigation {
   padding-left: 91px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.Navigation .Position-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .nav-item {
@@ -12084,6 +12117,11 @@ body {
   margin: 35px;
 }
 
+.Service-title {
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+
 .Service-image {
   background-image: url(../../images/landscape-2-1250x420.jpg);
   -webkit-clip-path: circle(50% at 50% 50%);
@@ -12096,11 +12134,6 @@ body {
   margin: auto;
   position: relative;
   z-index: 100;
-}
-
-.Service-title {
-  text-align: center;
-  margin: 15px 0px 15px 0px;
 }
 
 .Service-icon {

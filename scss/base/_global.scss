@@ -4,8 +4,41 @@
 //     text-rendering: optimizelegibility;
 // }
 
-.navigation.col-8{
+// .Droptown-pages{
+//     background-color: $backgrount-items-navbar;
+// }
+
+.Droptown-items{
+    background-color: $backgrount-items-navbar;
+    text-decoration: none;
+    // right: 9px;
+
+    &::before{
+        content: '';
+            border-style: solid;
+            border-width: 0 9px 9px 9px;
+            border-color: transparent transparent $color-logo transparent;            
+            display: inline-block;
+            height: 0;
+            position: absolute;
+            right: 13px;
+            top: -7px;
+            width: 0;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.Navigation{
     padding-left: 91px;
+    flex-direction: column;
+    align-items: center;
+    .Position-ul{
+        display: flex;
+    }
 }
 
 .nav-item{
@@ -88,6 +121,11 @@
 }
 
 
+.Service-title{
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+}
+
 .Service-image{
     background-image: url(../../images/landscape-2-1250x420.jpg);
     clip-path: circle(50% at 50% 50%);
@@ -100,10 +138,6 @@
     
 }
    
-.Service-title{
-    text-align: center;
-    margin: 15px 0px 15px 0px;
-}
 
 
 .Service-icon{
