@@ -12,29 +12,24 @@
 //     padding: 13px 0px 0px -90px !important;
 //   }
 
-.Droptown-items{
-    background-color: $backgrount-items-navbar;
-    text-decoration: none;
-    // right: 9px;
+.Navbar-items{
+    display: flex;
+    padding: 0px 240px;
+    margin-bottom: 10px;
 
-    &::before{
-        content: '';
-            border-style: solid;
-            border-width: 0 9px 9px 9px;
-            border-color: transparent transparent $color-logo transparent;            
-            display: inline-block;
-            height: 0;
-            position: absolute;
-            right: 13px;
-            top: -7px;
-            width: 0;
-            padding: 13px 0px 0px -90px !important;
-    }
-
-    a{
-        text-decoration: none;
-        color: white;
-    }
+    // &::before{
+    //     content: '';
+    //     border-style: solid;
+    //     border-width: 0 9px 9px 9px;
+    //     border-color: transparent transparent $color-logo transparent;            
+    //     display: inline-block;
+    //     height: 0;
+    //     position: absolute;
+    //     right: 13px;
+    //     top: -7px;
+    //     width: 0;
+    //     padding: 13px 0px 0px -90px !important;
+    // }
 }
 
 .Navigation{
