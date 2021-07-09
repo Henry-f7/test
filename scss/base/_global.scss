@@ -8,6 +8,10 @@
 //     background-color: $backgrount-items-navbar;
 // }
 
+// .dropdown-menu::before{
+//     padding: 13px 0px 0px -90px !important;
+//   }
+
 .Droptown-items{
     background-color: $backgrount-items-navbar;
     text-decoration: none;
@@ -24,6 +28,7 @@
             right: 13px;
             top: -7px;
             width: 0;
+            padding: 13px 0px 0px -90px !important;
     }
 
     a{
