@@ -6,7 +6,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -10769,17 +10769,14 @@ body {
   font-weight: 600;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
-}
-
-.figcaption {
-  opacity: 1;
-  animation-name: reset, fadeIn;
-  animation-duration: 2s;
-  animation-timing-function: ease-in;
-  animation-iteration-count: 1;
 }
 
 .Container, .container-2 {
@@ -10891,7 +10888,7 @@ ul {
   font-family: inherit;
   font-style: normal;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 30px;
   text-shadow: 0 1px 0 #fff;
   padding: 10px;
@@ -10954,15 +10951,30 @@ ul {
   margin-left: -24px;
 }
 .Carousel-presentation-text {
-  font-size: 72px;
-  font-weight: 900;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+  font-size: 78px;
+  font-weight: 700;
+  position: absolute;
+  right: 15%;
+  top: 35%;
+  left: 21%;
+  z-index: 10;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
   text-align: center;
-  line-height: 1;
+  display: flex;
+  justify-content: space-around;
 }
-.Carousel-presentation-indicators button {
+.Carousel-presentation-text .light {
+  font-weight: 100;
+}
+.Carousel-presentation .carousel-indicators li {
   width: 10px;
   height: 10px;
-  border-radius: 100%;
+  margin: 1px 9px;
+  border: 3px solid rgba(94, 94, 94, 0.7);
+  border-radius: 10px;
 }
 
 .Home {

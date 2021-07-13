@@ -4,17 +4,32 @@
     margin-left: -24px;
 
     &-text{
-        font-size: 72px;
-        font-weight: 900;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+        font-size: 78px;
+        font-weight: 700;
+        position: absolute;
+        right: 15%;
+        top: 35%;
+        left: 21%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: $fondo-wh;
         text-align: center;
-        line-height: 1;
+        display: flex;
+        justify-content: space-around;
+        .light{
+            font-weight: 100;
+        }
     }
 
-    &-indicators{
-        button{
+    .carousel-indicators{
+        li{
             width: 10px;
             height: 10px;
-            border-radius: 100%;
+            margin: 1px 9px;
+            border: 3px solid rgba(94, 94, 94, 0.7);
+            border-radius: 10px;
         }
     }
 }

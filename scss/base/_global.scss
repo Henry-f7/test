@@ -1,60 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
-
-.figcaption{
-    opacity: 1;
--webkit-animation-name: reset, fadeIn;
--moz-animation-name: reset, fadeIn;
--o-animation-name: reset, fadeIn;
--ms-animation-name: reset, fadeIn;
-animation-name: reset, fadeIn;
--webkit-animation-duration: 2s;
--moz-animation-duration: 2s;
--o-animation-duration: 2s;
--ms-animation-duration: 2s;
-animation-duration: 2s;
--webkit-animation-timing-function: ease-in;
--moz-animation-timing-function: ease-in;
--o-animation-timing-function: ease-in;
--ms-animation-timing-function: ease-in;
-animation-timing-function: ease-in;
--webkit-animation-iteration-count: 1;
--moz-animation-iteration-count: 1;
--o-animation-iteration-count: 1;
--ms-animation-iteration-count: 1;
-animation-iteration-count: 1;
-}
-
-// .nav-item{
-//     list-style: none;
-//     align-items: right;
-//     display: inline-flex ;
-//     justify-content: flex-end;
-//     gap: 20px;
-// }
-
-// .light{
-//     font-weight: 300;
-// }
-
-// .brand{
-//     float: left;
-//     display: block;
-//     padding: -20px;
-//     margin-left: -10px;
-//     font-size: 40px;
-//     font-weight: 200;
-//     color: $color-logo;
-//     text-shadow: 0 1px 0 white;
-//     text-decoration:none;
-
-// }
-
-// .nav-link{
-//     color: $color-nav;
-// }
 
 .Container{
     background-color: $fondo-wh;
