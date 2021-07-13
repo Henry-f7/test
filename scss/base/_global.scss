@@ -3,6 +3,29 @@ body{
     font-weight: 400;
 }
 
+.figcaption{
+    opacity: 1;
+-webkit-animation-name: reset, fadeIn;
+-moz-animation-name: reset, fadeIn;
+-o-animation-name: reset, fadeIn;
+-ms-animation-name: reset, fadeIn;
+animation-name: reset, fadeIn;
+-webkit-animation-duration: 2s;
+-moz-animation-duration: 2s;
+-o-animation-duration: 2s;
+-ms-animation-duration: 2s;
+animation-duration: 2s;
+-webkit-animation-timing-function: ease-in;
+-moz-animation-timing-function: ease-in;
+-o-animation-timing-function: ease-in;
+-ms-animation-timing-function: ease-in;
+animation-timing-function: ease-in;
+-webkit-animation-iteration-count: 1;
+-moz-animation-iteration-count: 1;
+-o-animation-iteration-count: 1;
+-ms-animation-iteration-count: 1;
+animation-iteration-count: 1;
+}
 
 // .nav-item{
 //     list-style: none;
@@ -48,20 +71,6 @@ body{
        padding: 50px;
 }
 
-.Carrousel-head{
-    margin: auto;
-    /* padding: 5px 10px 10px 10px; */
-    width: 1137px;
-    /* border-left-width: 33px; */
-    margin-left: -24px;
-    .carousel-indicators{
-        button{
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;
-        }
-    }
-}
 
 
 .Services-title{

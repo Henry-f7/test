@@ -10774,6 +10774,14 @@ body {
   font-weight: 400;
 }
 
+.figcaption {
+  opacity: 1;
+  animation-name: reset, fadeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+}
+
 .Container, .container-2 {
   background-color: #fff;
   width: 1150px;
@@ -10786,19 +10794,6 @@ body {
   margin: 32px 0px 0px -49px;
   width: 1137px;
   padding: 50px;
-}
-
-.Carrousel-head {
-  margin: auto;
-  /* padding: 5px 10px 10px 10px; */
-  width: 1137px;
-  /* border-left-width: 33px; */
-  margin-left: -24px;
-}
-.Carrousel-head .carousel-indicators button {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
 }
 
 .Services-title {
@@ -10951,6 +10946,23 @@ ul {
 .Navbar .Navbar-link {
   color: #5e5e5e;
   margin: 0px 10px;
+}
+
+.Carousel-presentation {
+  margin: auto;
+  width: 1137px;
+  margin-left: -24px;
+}
+.Carousel-presentation-text {
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 1;
+}
+.Carousel-presentation-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 
 .Home {
