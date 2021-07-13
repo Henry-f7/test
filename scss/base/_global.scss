@@ -1,37 +1,12 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
 }
-
-
-// .nav-item{
-//     list-style: none;
-//     align-items: right;
-//     display: inline-flex ;
-//     justify-content: flex-end;
-//     gap: 20px;
-// }
-
-// .light{
-//     font-weight: 300;
-// }
-
-// .brand{
-//     float: left;
-//     display: block;
-//     padding: -20px;
-//     margin-left: -10px;
-//     font-size: 40px;
-//     font-weight: 200;
-//     color: $color-logo;
-//     text-shadow: 0 1px 0 white;
-//     text-decoration:none;
-
-// }
-
-// .nav-link{
-//     color: $color-nav;
-// }
 
 .Container{
     background-color: $fondo-wh;
@@ -48,20 +23,6 @@ body{
        padding: 50px;
 }
 
-.Carrousel-head{
-    margin: auto;
-    /* padding: 5px 10px 10px 10px; */
-    width: 1137px;
-    /* border-left-width: 33px; */
-    margin-left: -24px;
-    .carousel-indicators{
-        button{
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;
-        }
-    }
-}
 
 
 .Services-title{
