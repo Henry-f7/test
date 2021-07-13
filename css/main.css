@@ -10898,7 +10898,7 @@ ul {
   font-size: 30px;
   font-weight: 700;
   line-height: 30px;
-  text-shadow: 0 1px 0 white;
+  text-shadow: 0 1px 0 #fff;
   padding: 10px;
 }
 .Navbar-logo-size-ligth {
@@ -10908,33 +10908,43 @@ ul {
   text-decoration: none;
   color: #42576a;
 }
+.Navbar-logo-size a:hover {
+  background-color: transparent;
+  color: #5f7e99;
+  text-decoration: none;
+}
 .Navbar-items {
   display: flex;
   padding: 0px 108px;
   margin: 5px 9px 8px 6px;
 }
+.Navbar-items a:hover {
+  background-color: transparent;
+  color: #5f7e99;
+  text-decoration: none;
+}
 .Navbar .Navbar-submenu {
   left: unset;
   right: 0px;
-  top: 45px;
+  top: 53px;
   background-color: rgba(68, 68, 68, 0.95);
   text-shadow: none;
   font-size: 14px;
 }
-.Navbar .Navbar-submenu-items:focus:hover {
+.Navbar .Navbar-submenu-items:hover {
   color: #fff;
   background-color: #1c1c1c;
 }
 .Navbar .Navbar-submenu::before {
   content: "";
   border-style: solid;
-  border-width: 0 9px 9px 9px;
-  border-color: transparent transparent #5e5e5e transparent;
+  border-width: 0px 7px 8px 7px;
+  border-color: transparent transparent rgba(68, 68, 68, 0.95) transparent;
   display: inline-block;
   height: 0;
   position: absolute;
-  right: 13px;
-  top: -7px;
+  right: 11px;
+  top: -6px;
   width: 0;
   padding: 13px 0px 0px -90px !important;
 }
