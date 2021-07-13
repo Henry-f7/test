@@ -1,80 +1,43 @@
-// h1 h2{
-//     font-family: inherit;
-//     text-align: center;
-//     text-rendering: optimizelegibility;
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+
+// .nav-item{
+//     list-style: none;
+//     align-items: right;
+//     display: inline-flex ;
+//     justify-content: flex-end;
+//     gap: 20px;
 // }
 
-// .Droptown-pages{
-//     background-color: $backgrount-items-navbar;
+// .light{
+//     font-weight: 300;
 // }
 
-// .dropdown-menu::before{
-//     padding: 13px 0px 0px -90px !important;
-//   }
+// .brand{
+//     float: left;
+//     display: block;
+//     padding: -20px;
+//     margin-left: -10px;
+//     font-size: 40px;
+//     font-weight: 200;
+//     color: $color-logo;
+//     text-shadow: 0 1px 0 white;
+//     text-decoration:none;
 
-.Navbar-items{
-    display: flex;
-    padding: 0px 240px;
-    margin-bottom: 10px;
+// }
 
-    // &::before{
-    //     content: '';
-    //     border-style: solid;
-    //     border-width: 0 9px 9px 9px;
-    //     border-color: transparent transparent $color-logo transparent;            
-    //     display: inline-block;
-    //     height: 0;
-    //     position: absolute;
-    //     right: 13px;
-    //     top: -7px;
-    //     width: 0;
-    //     padding: 13px 0px 0px -90px !important;
-    // }
-}
-
-.Navigation{
-    padding-left: 91px;
-    flex-direction: column;
-    align-items: center;
-    .Position-ul{
-        display: flex;
-    }
-}
-
-.nav-item{
-    list-style: none;
-    align-items: right;
-    display: inline-flex ;
-    justify-content: flex-end;
-    gap: 20px;
-}
-
-.light{
-    font-weight: 300;
-}
-
-.brand{
-    float: left;
-    display: block;
-    padding: -20px;
-    margin-left: -10px;
-    font-size: 40px;
-    font-weight: 200;
-    color: $color-logo;
-    text-shadow: 0 1px 0 white;
-    text-decoration:none;
-
-}
-
-.nav-link{
-    color: $color-nav;
-}
+// .nav-link{
+//     color: $color-nav;
+// }
 
 .Container{
     background-color: $fondo-wh;
     width: 1150px;
     margin: 40px 40px 40px 60px;
-    padding: 30px;
+    padding: 14px 30px;
     box-shadow: 0 0 20px 2px $color-sombra;
 }
 
