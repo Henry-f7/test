@@ -1,11 +1,13 @@
 *{
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 }
 
-body{
+.Backgrount-body{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
+    background: #f2f2f4 url(http://bootstrap.oxygenna.com/smartbox/images/backgrounds/bedge_grunge.png);
 }
 
 .Container{

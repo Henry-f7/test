@@ -1,5 +1,7 @@
 .Navbar{
     padding-top: unset;
+    left: 118px;
+    padding: 0px 0px;
 
     &-logo{
         &-size{
@@ -29,8 +31,8 @@
     
     &-items{
         display: flex;
-        padding: 0px 108px;
-        margin: 5px 9px 8px 6px;
+        padding: 0px 0px;
+        margin: 5px 0px 8px 0px;
         a:hover{
             background-color: transparent;
             color: $color-items-nav-hover;
