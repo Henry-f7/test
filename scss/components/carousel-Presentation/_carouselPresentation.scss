@@ -1,39 +1,35 @@
 .Carousel-presentation{
     margin: auto;
-    width: 1146px;
-    margin-left: -28px;
+    position: relative;
+    right: 29px;   
+    width: 1148px;
 
     &-text{
+        color: $fondo-wh;
         display: table-cell;
-        text-shadow: 1px 1px 1px rgb(0 0 0 / 90%);
+        flex-direction: row;
         font-size: 78px;
         font-weight: 700;
         position: absolute;
         top: 35%;
-        z-index: 10;
-        color: #fff;
+        text-shadow: 1px 1px 1px $shadows-text-color;
         text-align: center;
-        flex-direction: row;
         width: 100%;
+        z-index: 10;
         .light{
             font-weight: 100;
         }
     }
 
     & &-indicators{
-
-        width: 10px;
+        background-color: transparent;
+        border: 2px solid $border-color-indicator;
+        border-radius: 10px;
         height: 10px;
         margin: 1px 9px;
-        border: 2px solid rgb(165, 165, 165);
-        border-radius: 10px;
-        background-color: transparent;
+        width: 10px;
         &.active{
-            background-color: white;
+            background-color: $fondo-wh;
         }
-    }
-    
-    // .carousel-indicators{
-
-    // }
+    }      
 }

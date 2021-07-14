@@ -1,7 +1,8 @@
 .Navbar{
-    padding-top: unset;
+    bottom: 6px; 
     left: 118px;
-    padding: 0px 0px;
+    padding-top: unset;
+    padding: 6px 0px;
 
     &-logo{
         &-size{
@@ -17,8 +18,8 @@
             }
 
             a{
-                text-decoration: none;
                 color: $color-logo;
+                text-decoration: none;
             }
 
             a:hover{
@@ -31,8 +32,8 @@
     
     &-items{
         display: flex;
-        padding: 0px 0px;
         margin: 5px 0px 8px 0px;
+        padding: 0px 0px;
         a:hover{
             background-color: transparent;
             color: $color-items-nav-hover;
@@ -41,37 +42,36 @@
     }
     
     & &-submenu{
+        background-color: $background-color-submenu;
+        border-color: $black;
+        font-size: 14px;
         left: unset;
         right: 0px;
-        top: 53px;
-        background-color: $backgrount-color-submenu;
+        top: 57px;
         text-shadow: none;
-        font-size: 14px;
 
         &-items:hover{
+            background-color: $background-submenu-hover;
             color: $fondo-wh;
-            background-color: $backgrount-submenu-hover;
         }
 
         &::before{
-            content: "";
             border-style: solid;
             border-width: 0px 7px 8px 7px;
-            border-color: transparent transparent $backgrount-color-submenu transparent;
+            border-color: transparent transparent $background-color-submenu transparent;
+            content: "";
             display: inline-block;
             height: 0;
+            padding: 13px 0px 0px -90px !important;
             position: absolute;
             right: 11px;
             top: -6px;
             width: 0;
-            padding: 13px 0px 0px -90px !important;
         }
     }
 
     & &-link{
         color: $color-items-nav;
         margin: 0px 10px;
-
     }
 }
-

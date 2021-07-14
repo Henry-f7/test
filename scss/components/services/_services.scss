@@ -1,23 +1,87 @@
-.Services-container{
+// .Services-container{
 
-    background-color: $fondo-wh;
-    width: 1150px;
-    margin: 40px 40px 40px 60px;
-    padding: 14px 30px;
-    box-shadow: 0 0 20px 2px $color-sombra;
+//     background-color: $fondo-wh;
+//     width: 1150px;
+//     margin: 40px 40px 40px 60px;
+//     padding: 14px 30px;
+//     box-shadow: 0 0 20px 2px $color-sombra;
 
-    &-title::before{
-        content: "";
-        position: absolute;
-        width: 30%;
-        height: 1px;
-        background-color: #f2f2f4;
-        -webkit-box-shadow: 0px 1px 0px white;
-        -moz-box-shadow: 0px 1px 0px white;
-        box-shadow: 0px 1px 0px white;
-        top: 50%;
-        z-index: 0;
-    }
+//     &-title::before{
+//         content: "";
+//         position: absolute;
+//         width: 30%;
+//         height: 1px;
+//         background-color: #f2f2f4;
+//         -webkit-box-shadow: 0px 1px 0px white;
+//         -moz-box-shadow: 0px 1px 0px white;
+//         box-shadow: 0px 1px 0px white;
+//         top: 50%;
+//         z-index: 0;
+//     }
+// }
 
+// .Service-title{
+//     text-align: center;
+//     margin: 15px 0px 15px 0px;
+// }
 
+.Services-title{
+    text-align: center;
+    margin: 25px 0px 25px 0px;
+    padding: 10px 0 10px 0;
 }
+
+
+.Service-container{
+    &-image{
+        &-web{
+            background-image: url(../../images/landscape-2-1250x420.jpg);
+            clip-path: circle(50% at 50% 50%);
+            height: 150px;
+            width: 150px;
+            justify-content: space-between;
+            margin: auto;
+             position: relative;
+            z-index: 100;
+        }
+        &-cloud{
+            background-image: url(../../images/landscape-2-1250x420.jpg);
+            clip-path: circle(50% at 50% 50%);
+            height: 150px;
+            width: 150px;
+            justify-content: space-between;
+            margin: auto;
+             position: relative;
+            z-index: 100;
+        }
+        &-social{
+            background-image: url(../../images/landscape-2-1250x420.jpg);
+            clip-path: circle(50% at 50% 50%);
+            height: 150px;
+            width: 150px;
+            justify-content: space-between;
+            margin: auto;
+             position: relative;
+            z-index: 100;
+        }
+        &-smart{
+            background-image: url(../../images/landscape-2-1250x420.jpg);
+            clip-path: circle(50% at 50% 50%);
+            height: 150px;
+            width: 150px;
+            justify-content: space-between;
+            margin: auto;
+             position: relative;
+            z-index: 100;
+        }
+    }
+}
+
+.Service-icon{
+   //  background-image: url(../../images/icons-service/icons8-me-gusta-60.png);
+   position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+
+}  

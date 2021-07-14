@@ -1,10 +1,10 @@
 %custom-container-style {
     background-color: $fondo-wh;
+    box-shadow: 0 0 20px 2px $color-sombra;
     max-width: 1150px;
     margin-bottom: 40px;
     margin-top: 40px;
     padding: 14px 30px;
-    box-shadow: 0 0 20px 2px $color-sombra;
 }
 
 @mixin padding-10 {

@@ -10756,32 +10756,16 @@ textarea.form-control-lg {
 }
 .container-2, .custom-container {
   background-color: #fff;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
   max-width: 1150px;
   margin-bottom: 40px;
   margin-top: 40px;
   padding: 14px 30px;
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
-}
-
-body {
-  background-image: url(../../images/bedge_grunge.png);
-  background-size: 100% 100%;
-}
-
-.base-padding {
-  padding: 10px;
-  color: #fff;
-}
-
-.text-bold {
-  font-size: 16px;
-  font-weight: 600;
 }
 
 * {
   margin: 0px;
   padding: 0px;
-  overflow-x: hidden;
 }
 
 .background-body {
@@ -10796,27 +10780,14 @@ body {
   padding: 50px;
 }
 
+.footertuani {
+  margin: 55px 0px 74px 71px;
+}
+
 .Services-title {
   text-align: center;
   margin: 25px 0px 25px 0px;
   padding: 10px 0 10px 0;
-}
-
-.cards {
-  display: inline-flex;
-  justify-content: space-between;
-}
-.cards:card {
-  margin: 25px;
-}
-
-.cardd {
-  margin: 35px;
-}
-
-.Service-title {
-  text-align: center;
-  margin: 15px 0px 15px 0px;
 }
 
 .Service-container-image-web {
@@ -10867,57 +10838,11 @@ body {
   z-index: -1;
 }
 
-.article-list {
-  list-style: none;
-}
-
-ul {
-  list-style: none;
-}
-
-.card-horizontal {
-  display: flex;
-  flex: 1 1 auto;
-  margin: 5px;
-}
-
-.imgCard {
-  width: 200px;
-  height: 150px;
-  margin: 41px -20px 0px -31px;
-  clip-path: circle(28% at 50% 50%);
-}
-
-.card-body h4 p, .card-body .h4 p {
-  font-size: 18px;
-}
-
-.footertuani {
-  margin: 55px 0px 74px 71px;
-}
-
-.Clients-sections {
-  text-align: center;
-}
-.Clients-sections .light {
-  font-weight: 400;
-}
-
-.Recent {
-  padding: 40px 0;
-}
-.Recent-title {
-  font-size: 24px;
-  font-weight: 700;
-}
-.Recent-item {
-  color: #42576a;
-  font-size: 14px;
-}
 .Navbar {
-  padding-top: unset;
+  bottom: 6px;
   left: 118px;
-  padding: 0px 0px;
+  padding-top: unset;
+  padding: 6px 0px;
 }
 .Navbar-logo-size {
   font-family: inherit;
@@ -10932,8 +10857,8 @@ ul {
   font-weight: 300;
 }
 .Navbar-logo-size a {
-  text-decoration: none;
   color: #42576a;
+  text-decoration: none;
 }
 .Navbar-logo-size a:hover {
   background-color: transparent;
@@ -10942,8 +10867,8 @@ ul {
 }
 .Navbar-items {
   display: flex;
-  padding: 0px 0px;
   margin: 5px 0px 8px 0px;
+  padding: 0px 0px;
 }
 .Navbar-items a:hover {
   background-color: transparent;
@@ -10951,29 +10876,30 @@ ul {
   text-decoration: none;
 }
 .Navbar .Navbar-submenu {
+  background-color: rgba(68, 68, 68, 0.84);
+  border-color: rgba(29, 29, 29, 0.795);
+  font-size: 14px;
   left: unset;
   right: 0px;
-  top: 53px;
-  background-color: rgba(68, 68, 68, 0.95);
+  top: 57px;
   text-shadow: none;
-  font-size: 14px;
 }
 .Navbar .Navbar-submenu-items:hover {
-  color: #fff;
   background-color: #1c1c1c;
+  color: #fff;
 }
 .Navbar .Navbar-submenu::before {
-  content: "";
   border-style: solid;
   border-width: 0px 7px 8px 7px;
-  border-color: transparent transparent rgba(68, 68, 68, 0.95) transparent;
+  border-color: transparent transparent rgba(68, 68, 68, 0.84) transparent;
+  content: "";
   display: inline-block;
   height: 0;
+  padding: 13px 0px 0px -90px !important;
   position: absolute;
   right: 11px;
   top: -6px;
   width: 0;
-  padding: 13px 0px 0px -90px !important;
 }
 .Navbar .Navbar-link {
   color: #5e5e5e;
@@ -10982,35 +10908,36 @@ ul {
 
 .Carousel-presentation {
   margin: auto;
-  width: 1146px;
-  margin-left: -28px;
+  position: relative;
+  right: 29px;
+  width: 1148px;
 }
 .Carousel-presentation-text {
+  color: #fff;
   display: table-cell;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
+  flex-direction: row;
   font-size: 78px;
   font-weight: 700;
   position: absolute;
   top: 35%;
-  z-index: 10;
-  color: #fff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.9);
   text-align: center;
-  flex-direction: row;
   width: 100%;
+  z-index: 10;
 }
 .Carousel-presentation-text .light {
   font-weight: 100;
 }
 .Carousel-presentation .Carousel-presentation-indicators {
-  width: 10px;
-  height: 10px;
-  margin: 1px 9px;
+  background-color: transparent;
   border: 2px solid #a5a5a5;
   border-radius: 10px;
-  background-color: transparent;
+  height: 10px;
+  margin: 1px 9px;
+  width: 10px;
 }
 .Carousel-presentation .Carousel-presentation-indicators.active {
-  background-color: white;
+  background-color: #fff;
 }
 
 .Home {
