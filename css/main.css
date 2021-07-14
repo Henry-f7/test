@@ -10844,7 +10844,7 @@ textarea.form-control-lg {
   padding-top: unset;
   padding: 6px 0px;
 }
-.Navbar-logo-size {
+.Navbar-title {
   font-family: inherit;
   font-style: normal;
   font-size: 30px;
@@ -10853,14 +10853,14 @@ textarea.form-control-lg {
   text-shadow: 0 1px 0 #fff;
   padding: 10px;
 }
-.Navbar-logo-size-ligth {
+.Navbar-title .ligth {
   font-weight: 300;
 }
-.Navbar-logo-size a {
+.Navbar-title a {
   color: #42576a;
   text-decoration: none;
 }
-.Navbar-logo-size a:hover {
+.Navbar-title a:hover {
   background-color: transparent;
   color: #5f7e99;
   text-decoration: none;

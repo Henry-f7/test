@@ -4,29 +4,27 @@
     padding-top: unset;
     padding: 6px 0px;
 
-    &-logo{
-        &-size{
-            font-family: inherit;
-            font-style: normal;
-            font-size: 30px;
-            font-weight: 900;
-            line-height: 30px;
-            text-shadow: 0 1px 0 $fondo-wh;
-            padding: 10px;
-            &-ligth{
-                font-weight: 300;
-            }
+    &-title{        
+        font-family: inherit;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 30px;
+        text-shadow: 0 1px 0 $fondo-wh;
+        padding: 10px;
+        
+        & .ligth{
+            font-weight: 300;
+        }
 
-            a{
-                color: $color-logo;
-                text-decoration: none;
-            }
-
-            a:hover{
+        a{
+            color: $color-logo;
+            text-decoration: none;
+            &:hover{
                 background-color: transparent;
                 color: $color-items-nav-hover;
                 text-decoration: none;
-            }
+            }  
         }
     }
     
