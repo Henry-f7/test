@@ -1,0 +1,23 @@
+.Services-container{
+
+    background-color: $fondo-wh;
+    width: 1150px;
+    margin: 40px 40px 40px 60px;
+    padding: 14px 30px;
+    box-shadow: 0 0 20px 2px $color-sombra;
+
+    &-title::before{
+        content: "";
+        position: absolute;
+        width: 30%;
+        height: 1px;
+        background-color: #f2f2f4;
+        -webkit-box-shadow: 0px 1px 0px white;
+        -moz-box-shadow: 0px 1px 0px white;
+        box-shadow: 0px 1px 0px white;
+        top: 50%;
+        z-index: 0;
+    }
+
+
+}

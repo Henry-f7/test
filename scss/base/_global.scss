@@ -52,15 +52,51 @@
     margin: 15px 0px 15px 0px;
 }
 
-.Service-image{
-    background-image: url(../../images/landscape-2-1250x420.jpg);
-    clip-path: circle(50% at 50% 50%);
-    height: 150px;
-    width: 150px;
-    justify-content: space-between;
-    margin: auto;
-     position: relative;
-    z-index: 100;
+.Service-container{
+
+    &-image{
+        &-web{
+            background-image: url(../../images/landscape-2-1250x420.jpg);
+            clip-path: circle(50% at 50% 50%);
+            height: 150px;
+            width: 150px;
+            justify-content: space-between;
+            margin: auto;
+             position: relative;
+            z-index: 100;
+        }
+        &-cloud{
+            background-image: url(../../images/landscape-2-1250x420.jpg);
+            clip-path: circle(50% at 50% 50%);
+            height: 150px;
+            width: 150px;
+            justify-content: space-between;
+            margin: auto;
+             position: relative;
+            z-index: 100;
+        }
+        &-social{
+            background-image: url(../../images/landscape-2-1250x420.jpg);
+            clip-path: circle(50% at 50% 50%);
+            height: 150px;
+            width: 150px;
+            justify-content: space-between;
+            margin: auto;
+             position: relative;
+            z-index: 100;
+        }
+        &-smart{
+            background-image: url(../../images/landscape-2-1250x420.jpg);
+            clip-path: circle(50% at 50% 50%);
+            height: 150px;
+            width: 150px;
+            justify-content: space-between;
+            margin: auto;
+             position: relative;
+            z-index: 100;
+        }
+    }
+    
     
 }
    
