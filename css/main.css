@@ -10766,10 +10766,10 @@ textarea.form-control-lg {
 .Service-image {
   background-size: cover;
   border-radius: 50%;
-  height: 150px;
+  height: 120px;
   margin: auto;
   position: relative;
-  width: 150px;
+  width: 120px;
   z-index: 100;
 }
 
@@ -10842,7 +10842,7 @@ textarea.form-control-lg {
 .Service-icon {
   color: #fff;
   display: block;
-  font-size: 53px;
+  font-size: 47px;
   height: 1em;
   left: 0;
   line-height: 1em;
