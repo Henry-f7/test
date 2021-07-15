@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link href="./node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="./images/icofont/icofont.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <!-- <link href="./font-awesome-all.css" media="screen" rel="stylesheet" type="text/css"> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
@@ -136,9 +137,11 @@
         </div>
         
         <section class="Services">
-          <h2 class="Services-title">WHAT 
-            <span class="light">WE DO?</span>
-          </h2>
+          <div class="section-header">
+            <h2 class="Services-title">WHAT 
+              <span class="light">WE DO?</span>
+            </h2>
+          </div>
 
           <div class="row">
               <div class="Service web col-3">
@@ -176,216 +179,80 @@
           </div>
         </section>
 
-        <section class="Works">
-          <h2>RECENT 
-            <small class="light">WORK</small>
-          </h2>
-          <div class="recentSection row">         
-              <div class="col-5">
-                  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                      <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                      </div>
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="./images/macbook.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="./images/ipad.png" class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="./images/imac-2.png" class="d-block w-100" alt="...">
-                        </div>
-                      </div>
-                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                      </button>
-                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                      </button>
-                    </div>
-              </div>
-              <div class="listas col-7">
-                <ul>
-                  <li class="article-list">
-                    <h4> 
-                      <a>
-                        <i class="bi bi-twitter"></i> SOCIAL APPS DEVELOPMENT
-                      </a>
-                    </h4>
-                    <p>Quisque et risus in lectus fringilla consectetur. In quis semper lacus. Pellentesque sed magna quis risus placerat tempor vel non lacus. </p>
-                  </li>
-                  <li class="article-list">
-                    <h4>
-                      <a>
-                        <i class="bi bi-suit-heart-fill"></i>APP THAT YOUR CLIENTS ARE GOIND TO LOVE
-                      </a>
-                    </h4>
-                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis consectetur venenatis ante in adipiscing. </p>
-                  </li>
-                  <li class="article-list">
-                    <h4>
-                      <a>
-                        <i class="bi bi-gear-fill"></i>INOVATIONS THAT TAKES YOU TO THE NEXT LEVEL
-                      </a>
-                    </h4>
-                    <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam ultrices pretium nibh, ac mollis lacus congue vel. </p>
-                  </li>
-                  <li class="article-list">
-                      <h4> 
-                        <a>
-                          <i class="bi bi-tree-fill"></i>ENVOROMENTAL FRIENDLY DESIGN
-                        </a>
-                      </h4>
-                    <p>Nunc vitae nulla urna. Integer feugiat mauris at massa egestas vel eleifend sem commodo. Suspendisse non ante ut lacus venenatis cursus.</p>
-                  </li>
-                  <li class="article-list">
-                    <h4>
-                      <a>
-                        <span class="material-icons-outline">auto_fix_high</span>DESIGN THAT HAS SOME MAGIC IN IT
-                      </a>
-                    </h4>
-                    <p>Nam sodales tincidunt diam, ut accumsan augue molestie eget. Nullam euismod molestie elit ut tempus.</p>
-                  </li>
-                </ul>
-              </div>
-          </div>
-        </section>
-
-        <div class="container-2">
-          <h2>LATEST 
-            <small class="light">NEWS?</small>
-          </h2>
-          <div class="container-fluid">
-            <div class="row">
-                <div class="col-4 mt-3">
-                    <div class="card">
-                        <div class="card-horizontal">
-                            <div class="img-square-wrapper">
-                                <img class="imgCard" src="./images/landscape-1-1250x420.jpg" alt="Card image cap">
-                            </div>
-                            <div class="card-body">
-                                <h4 class="card-title">A NORMAL POST</h4>
-                                <p class="card-text">Curabitur euismod ultrices purus eget vehicula. Cras interdum est sed dui congue imperdiet.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-4 mt-3">
-                  <div class="card">
-                      <div class="card-horizontal">
-                          <div class="img-square-wrapper">
-                              <img class="imgCard" src="./images/landscape-1-1250x420.jpg" alt="Card image cap">
-                          </div>
-                          <div class="card-body">
-                              <h4 class="card-title">LINK POST</h4>
-                              <p class="card-text">Donec viverra pulvinar ante, a placerat risus tincidunt vitae. Donec felis dolor, malesuada purus.</p>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-
-                <div class="col-4 mt-3">
-                  <div class="card">
-                      <div class="card-horizontal">
-                          <div class="img-square-wrapper">
-                              <img class="imgCard" src="./images/landscape-1-1250x420.jpg" alt="Card image cap">
-                          </div>
-                          <div class="card-body">
-                              <h4 class="card-title">VIDEO POST</h4>
-                              <p class="card-text">Phasellus condimentum dapibus ligula vel dapibus. Praesent dictum aliquet pharetra magna.</p>
-                          </div>
-                      </div>
-                  </div>
-                </div>
-
-            </div>  
-              
-          </div>
-        </div>
-        
-        <article>
-          <div class="Clients-sections">
-            <h2>CLIENTS
-              <small class="light">WE LOVE</small>
-
+        <div class="Works row">
+          <div class="section-header">
+            <h2 class="Works-title">RECENT 
+              <span class="light">WORK?</span>
             </h2>
           </div>
-          <div id="myCarousel" class="carousel slide container Carousel" data-bs-ride="carousel">
-            <div class="carousel-inner w-100">
-              <div class="carousel-item active">
-                <div class="col-md-3">
-                  <div class="card card-body">
-                    <img class="img-fluid" src="./images/imd_clientwelove/client1.png">
-                  </div>
-                </div>
+          <div class="col-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators Works-carousel">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active Works-carousel-indicators" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="Works-carousel-indicators" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="Works-carousel-indicators" aria-label="Slide 3"></button>
               </div>
-              <div class="carousel-item">
-                <div class="col-md-3">
-                  <div class="card card-body">
-                    <img class="img-fluid" src="./images/imd_clientwelove/client2.png">
-                  </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="./images/imac-2.png" class="d-block w-100" alt="...">
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="col-md-3">
-                  <div class="card card-body">
-                    <img class="img-fluid" src="./images/imd_clientwelove/client3.png">
-                  </div>
+                <div class="carousel-item">
+                  <img src="./images/ipad.png" class="d-block w-100" alt="...">
                 </div>
-              </div>
-              <div class="carousel-item">
-                <div class="col-md-3">
-                  <div class="card card-body">
-                    <img class="img-fluid" src="./images/imd_clientwelove/client4.png">
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="col-md-3">
-                  <div class="card card-body">
-                    <img class="img-fluid" src="./images/imd_clientwelove/client5.png">
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="col-md-3">
-                  <div class="card card-body">
-                    <img class="img-fluid" src="./images/imd_clientwelove/client6.png">
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="col-md-3">
-                  <div class="card card-body">
-                    <img class="img-fluid" src="./images/imd_clientwelove/client7.png">
-                  </div>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="col-md-3">
-                  <div class="card card-body">
-                    <img class="img-fluid" src="./images/imd_clientwelove/macbook.png">
-                  </div>
+                <div class="carousel-item">
+                  <img src="./images/macbook.png" class="d-block w-100" alt="...">
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev Carousel-button" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next Carousel-button" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-        </article>
+          <div class="col-6 Works-description">
+            <ul>
+              <li class="style-list">
+                <h4 class="Works-description-title"> 
+                  <a class="style-link" href="#">
+                    <i class="bi bi-twitter Space-icon"></i>  SOCIAL APPS DEVELOPMENT
+                  </a>
+                </h4>
+                <p class="style-p">Quisque et risus in lectus fringilla consectetur. In quis semper lacus. Pellentesque sed magna quis risus placerat tempor vel non lacus. </p>
+              </li>
+              <li class="style-list">
+                <h4 class="Works-description-title">
+                  <a class="style-link" href="#">
+                    <i class="bi bi-suit-heart-fill Space-icon"></i> APP THAT YOUR CLIENTS ARE GOIND TO LOVE
+                  </a>
+                </h4>
+                <p class="style-p">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis consectetur venenatis ante in adipiscing. </p>
+              </li>
+              <li class="style-list">
+                <h4 class="Works-description-title">
+                  <a class="style-link" href="#">
+                    <i class="bi bi-gear-fill Space-icon"></i> INOVATIONS THAT TAKES YOU TO THE NEXT LEVEL
+                  </a>
+                </h4>
+                <p class="style-p">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam ultrices pretium nibh, ac mollis lacus congue vel. </p>
+              </li>
+              <li class="style-list">
+                  <h4 class="Works-description-title"> 
+                    <a class="style-link" href="#">
+                      <i class="icofont-leaf Space-icon"></i> ENVIROMENTAL FRIENDLY DESIGN
+                    </a>
+                  </h4>
+                <p class="style-p">Nunc vitae nulla urna. Integer feugiat mauris at massa egestas vel eleifend sem commodo. Suspendisse non ante ut lacus venenatis cursus.</p>
+              </li>
+              <li class="style-list">
+                <h4 class="Works-description-title">
+                  <a class="style-link" href="#">
+                    <i class="icofont-magic Space-icon"></i> DESIGN THAT HAS SOME MAGIC IN IT
+                  </a>
+                </h4 class="Works-description-title">
+                <p class="style-p">Nam sodales tincidunt diam, ut accumsan augue molestie eget. Nullam euismod molestie elit ut tempus.</p>
+              </li>
+            </ul>
+          </div>
+          
 
+
+        </div>
     </div>
 
 
