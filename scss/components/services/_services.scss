@@ -20,68 +20,165 @@
 //     }
 // }
 
-// .Service-title{
-//     text-align: center;
-//     margin: 15px 0px 15px 0px;
-// }
+.Services{
+    background-color: $fondo-wh;
+    box-shadow: 0 0 20px 2px $color-sombra;
+    max-width: 1150px;
+    margin-bottom: 40px;
+    padding: 14px 30px;
+    
+    &-title{
+        font-size: 36px;
+        font-weight: 900;
+        margin: 27px auto;
+        padding: 10px auto;
+        position: relative;
+        right: 0px;
+        text-align: center;
 
-.Services-title{
-    text-align: center;
-    margin: 25px 0px 25px 0px;
-    padding: 10px 0 10px 0;
-}
-
-
-.Service-container{
-    &-image{
-        &-web{
-            background-image: url(../../images/landscape-2-1250x420.jpg);
-            clip-path: circle(50% at 50% 50%);
-            height: 150px;
-            width: 150px;
-            justify-content: space-between;
-            margin: auto;
-             position: relative;
-            z-index: 100;
-        }
-        &-cloud{
-            background-image: url(../../images/landscape-2-1250x420.jpg);
-            clip-path: circle(50% at 50% 50%);
-            height: 150px;
-            width: 150px;
-            justify-content: space-between;
-            margin: auto;
-             position: relative;
-            z-index: 100;
-        }
-        &-social{
-            background-image: url(../../images/landscape-2-1250x420.jpg);
-            clip-path: circle(50% at 50% 50%);
-            height: 150px;
-            width: 150px;
-            justify-content: space-between;
-            margin: auto;
-             position: relative;
-            z-index: 100;
-        }
-        &-smart{
-            background-image: url(../../images/landscape-2-1250x420.jpg);
-            clip-path: circle(50% at 50% 50%);
-            height: 150px;
-            width: 150px;
-            justify-content: space-between;
-            margin: auto;
-             position: relative;
-            z-index: 100;
+        & .light{
+            font-weight: 300;
         }
     }
+
+    // &-web{
+    //     .image{
+    //         background-image: url(http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-a-300x300.jpg);
+    //         @extend %section-style-image;
+    //         position: relative;
+    //         background-size: 135px;
+
+    //         .heart-icon{
+    //             font-size: 53px;
+    //             color: white;
+    //             line-height: 1em;
+    //             text-shadow: 1px 1px 1px black;
+    //             display: block;
+    //             position: absolute;
+    //             width: 1em;
+    //             height: 1em;
+    //             top: 50%;
+    //             left: 50%;
+    //             top: 26%;
+    //             left: 25%;
+    //         }
+
+    //         &::after{
+    //             content: "";
+    //             position: absolute;
+    //             top: 0;
+    //             bottom: 0;
+    //             left: 0;
+    //             right: 0;
+    //             box-shadow: 0px 0px 5px rgba(0, 0, 0, 70%) inset;
+    //             border-radius: 50%;
+    //         }
+    //     }
+    // }
+
+    // &-cloud{
+    //     .image{
+    //         background-image: url(http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-b-300x300.jpg);
+    //         background-size: 130px;
+    //         @extend %section-style-image;
+
+    //         .box-icon{
+    //             content: url(../../../images/icons-service/caja.svg);
+    //             font-size: 53px;
+    //             background-origin: border-box;
+    //             color: white;
+    //             line-height: 1em;
+    //             text-shadow: 1px 1px 1px black;
+    //             display: block;
+    //             position: absolute;
+    //             width: 1em;
+    //             height: 1em;
+    //             top: 25%;
+    //             left: 26%;
+    //         }
+
+            
+    //     }
+        
+    // }   
 }
 
-.Service-icon{
-   //  background-image: url(../../images/icons-service/icons8-me-gusta-60.png);
-   position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
+.Service {
+    &-title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 13px auto;
+        text-align: center;
+    }
+    &-description {
+        color: $color-items-nav;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 6px;
+        margin-inline-end: 0px;
 
-}  
+    }
+    &-image {
+        @extend %section-style-image;
+
+        &::after{
+            border-radius: 50%;
+            bottom: 0;
+            box-shadow: 0px 0px 5px rgba($black, 70%) inset;
+            content: "";
+            left: 0;
+            position: absolute;
+            right: 0;                
+            top: 0;
+        }
+    }
+    &-icon{
+        color: $white;
+        display: block;
+        font-size: 53px;
+        height: 1em;
+        left: 0;
+        line-height: 1em;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        text-shadow: 1px 1px 1px $black;
+        top: calc(50% - 26px);
+        text-shadow: 1px 1px 1px black;
+        width: 1em;
+    }
+    &-link{
+        display: block;
+        margin: 12px 0;
+        color: #42576a;
+        text-decoration: none;
+        span {
+            font-weight: 600;
+        }
+
+    }
+
+    &.web &-image{
+        background-image: url(http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-a-300x300.jpg);        
+    }
+
+    &.cloud &-image{
+        background-image: url(http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-b-300x300.jpg);
+        i {
+            content: url(../../../images/icons-service/caja.svg);
+        }
+    }
+
+    &.social &-image{
+        background-image: url(http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-c-300x300.jpg);
+        i {
+            content: url(../../../images/icons-service/apple.svg);
+        }
+    }
+
+    &.smart &-image{
+        background-image: url(http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-d-300x300.jpg);
+    }
+}

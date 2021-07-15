@@ -4,7 +4,17 @@
     max-width: 1150px;
     margin-bottom: 40px;
     margin-top: 40px;
-    padding: 14px 30px;
+    padding: 14px 0px;
+}
+
+%section-style-image{
+    background-size: cover;
+    border-radius: 50%;
+    height: 150px;
+    margin: auto;
+    position: relative;
+    width: 150px;
+    z-index: 100;
 }
 
 @mixin padding-10 {
