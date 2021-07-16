@@ -6,13 +6,15 @@
 @import "./base/variables";
 @import "./base/mixins";
 @import "./base/common";
-@import "./components/services/services";
 
 
 // Components
+@import "./components/services/services";
 @import "./components/work-descriptor/work-descriptor";
 @import "./components/navbar/navbar";
 @import "./components/carousel-Presentation/carouselPresentation";
+@import "./components/lastNews-section/lastNews";
+
 
 // Pages
 @import "./pages/home/home";

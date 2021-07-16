@@ -10773,7 +10773,7 @@ textarea.form-control-lg {
   z-index: 100;
 }
 
-.Works .section-header::after, .Works .section-header::before, .Services .section-header::after, .Services .section-header::before {
+.Latest-news-header::after, .Latest-news-header::before, .Works .section-header::after, .Works .section-header::before, .Services .section-header::after, .Services .section-header::before {
   content: "";
   position: absolute;
   width: 30%;
@@ -10793,6 +10793,10 @@ textarea.form-control-lg {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   background: #f2f2f4 url(http://bootstrap.oxygenna.com/smartbox/images/backgrounds/bedge_grunge.png);
+}
+
+.light {
+  font-weight: 300;
 }
 
 .footertuani {
@@ -10906,6 +10910,7 @@ textarea.form-control-lg {
   background-color: #f2f2f4;
   padding: 10px 0px;
   margin: 0px auto;
+  padding-bottom: 22px;
 }
 .Works .section-header {
   border-bottom: 0;
@@ -10960,6 +10965,7 @@ textarea.form-control-lg {
 }
 .Works-description .style-list {
   list-style: none;
+  padding-bottom: 11px;
 }
 .Works-description .style-p {
   color: #5e5e5e;
@@ -10976,7 +10982,7 @@ textarea.form-control-lg {
   text-decoration: none;
 }
 .Works-description ul {
-  padding: unset;
+  padding: 0px 13px 0px 0px;
 }
 
 .Navbar {
@@ -11079,6 +11085,99 @@ textarea.form-control-lg {
 }
 .Carousel-presentation .Carousel-presentation-indicators.active {
   background-color: #fff;
+}
+
+.Latest-news {
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
+  margin: auto;
+  padding: 21px 10px 48px 10px;
+}
+.Latest-news-header {
+  border-bottom: 0;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 31px;
+  padding-bottom: 0;
+  position: relative;
+}
+.Latest-news-header::before {
+  left: 30px;
+}
+.Latest-news-header-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 15px auto;
+  padding: 10px auto;
+  position: relative;
+  right: 0px;
+  text-align: center;
+  top: 7px;
+}
+.Latest-news-header::after {
+  right: 30px;
+}
+.Latest-news .News {
+  display: flex;
+  flex-direction: row;
+}
+.Latest-news .News-thumb {
+  text-align: center;
+  padding: 0 16px;
+}
+.Latest-news .News-info {
+  padding: 0 8px;
+}
+.Latest-news .News-date {
+  color: rgba(29, 29, 29, 0.795);
+  font-weight: 300;
+  font-size: 12px;
+  padding: 0px;
+  margin-top: 10px;
+}
+.Latest-news .News-image {
+  border-radius: 50%;
+  height: 78px;
+  width: 78px;
+  position: relative;
+  margin-right: 7px;
+  right: 5px;
+}
+.Latest-news .News .round-box {
+  margin-bottom: 12px;
+  left: 12px;
+  position: relative;
+  text-align: center;
+  z-index: 100;
+}
+.Latest-news .News-icon {
+  color: #fff;
+  font-size: 25px;
+  left: 25px;
+  position: absolute;
+  text-shadow: 1px 1px 1px rgba(29, 29, 29, 0.795);
+  top: 0px;
+  z-index: 1000;
+}
+.Latest-news .News-items {
+  align-items: end;
+  left: 10px;
+  position: relative;
+}
+.Latest-news .News-link {
+  color: #42576a;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+}
+.Latest-news .News-link:hover {
+  background-color: transparent;
+  color: #5f7e99;
+  text-decoration: none;
+}
+.Latest-news .News-description {
+  color: #5e5e5e;
+  padding: 0px 2px;
 }
 
 .Home {

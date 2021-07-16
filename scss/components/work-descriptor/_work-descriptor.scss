@@ -2,6 +2,7 @@
     background-color: $gray;
     padding: 10px 0px;
     margin: 0px auto;
+    padding-bottom: 22px;
 
     .section-header{
         border-bottom: 0;
@@ -64,6 +65,7 @@
 
         .style-list{
             list-style: none;
+            padding-bottom: 11px;
         }
 
         .style-p{
@@ -83,7 +85,7 @@
         }
 
         ul {
-            padding: unset;
+            padding: 0px 13px 0px 0px;
         }
     }
 }
