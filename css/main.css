@@ -10856,9 +10856,9 @@ textarea.form-control-lg {
   width: 1em;
 }
 .Service-link {
+  color: #42576a;
   display: block;
   margin: 12px 0;
-  color: #42576a;
   text-decoration: none;
 }
 .Service-link span {
