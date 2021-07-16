@@ -10974,6 +10974,9 @@ textarea.form-control-lg {
   color: #5f7e99;
   text-decoration: none;
 }
+.Works-description ul {
+  padding: unset;
+}
 
 .Navbar {
   bottom: 6px;
