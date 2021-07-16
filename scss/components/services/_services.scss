@@ -1,0 +1,119 @@
+.Services{
+    background-color: $fondo-wh;
+    box-shadow: 0 0 20px 2px $color-sombra;
+    max-width: 1150px;
+    margin-bottom: 14px;
+    padding: 14px 30px;
+    padding-bottom: 77px;
+
+    .section-header{
+        text-align: center;
+        position: relative;
+        border-bottom: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 36px;
+        &::before{
+            left: 30px;
+            @extend %section-header-line;
+        }
+
+        &::after{
+            right: 30px;
+            @extend %section-header-line;
+        }
+    }
+    
+    &-title{
+        font-size: 36px;
+        font-weight: 900;
+        margin: 27px auto;
+        padding: 10px auto;
+        position: relative;
+        right: 0px;
+        text-align: center;
+
+        & .light{
+            font-weight: 300;
+        }
+    }
+}
+
+.Service {
+    &-title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 24px;
+        margin: 13px auto;
+        text-align: center;
+    }
+    &-description {
+        color: $color-items-nav;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 6px;
+        margin-inline-end: 0px;
+
+    }
+    &-image {
+        @extend %section-style-image;
+
+        &::after{
+            border-radius: 50%;
+            bottom: 0;
+            box-shadow: 0px 0px 5px rgba($black, 70%) inset;
+            content: "";
+            left: 0;
+            position: absolute;
+            right: 0;                
+            top: 0;
+        }
+    }
+    &-icon{
+        color: $white;
+        display: block;
+        font-size: 47px;
+        height: 1em;
+        left: 0;
+        line-height: 1em;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        text-shadow: 1px 1px 1px $black;
+        top: calc(50% - 26px);
+        text-shadow: 1px 1px 1px $black;
+        width: 1em;
+    }
+    &-link{
+        color: $darkBlue;
+        display: block;
+        margin: 12px 0;
+        text-decoration: none;
+        span {
+            font-weight: 600;
+        }
+    }
+
+    &.web &-image{
+        background-image: url(http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-a-300x300.jpg);        
+    }
+
+    &.cloud &-image{
+        background-image: url(http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-b-300x300.jpg);
+        i {
+            content: url(../../../images/icons-service/caja.svg);
+        }
+    }
+
+    &.social &-image{
+        background-image: url(http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-c-300x300.jpg);
+        i {
+            content: url(../../../images/icons-service/apple.svg);
+        }
+    }
+
+    &.smart &-image{
+        background-image: url(http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-d-300x300.jpg);
+    }
+}

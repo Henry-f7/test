@@ -1,0 +1,109 @@
+.Latest-news{
+    box-shadow: 0 0 20px 2px $color-sombra;
+    margin: auto;
+    padding: 21px 10px 48px 10px;
+    
+    &-header{
+        border-bottom: 0;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 31px;
+        padding-bottom: 0;
+        position: relative;
+        &::before{
+            @extend %section-header-line;
+            left: 30px;
+        }
+    
+        &-title{
+            font-size: 36px;
+            font-weight: 700;
+            margin: 15px auto;
+            padding: 10px auto;
+            position: relative;
+            right: 0px;
+            text-align: center;
+            top: 7px;
+        }
+
+        &::after{
+            @extend %section-header-line;
+            right: 30px;
+        }
+    }
+
+    .News{
+
+        display: flex;
+        flex-direction: row;
+        &-thumb{
+            text-align: center;
+            padding: 0 16px;
+        }
+
+        &-info{
+            padding: 0 8px;
+        }
+
+        &-date{
+            color: $black;
+            font-weight: 300;
+            font-size: 12px;
+            padding: 0px;
+            margin-top: 10px;
+        }
+
+        &-image{
+            border-radius: 50%;
+            height: 78px;
+            width: 78px;
+            position: relative;
+            margin-right: 7px;
+            right: 5px;
+        }
+
+        .round-box{
+            margin-bottom: 12px;
+            left: 12px;
+            position: relative;
+            text-align: center;
+            z-index: 100;
+        }
+
+        
+        &-icon{
+            color: $fondo-wh;
+            font-size: 25px;
+            left: 25px;
+            position: absolute;
+            text-shadow: 1px 1px 1px $black;
+            top: 0px;
+            z-index: 1000;
+        }
+        
+        &-items{
+            align-items: end;
+            left: 10px;
+            position: relative;
+        }
+        
+        &-link{
+            color: $darkBlue;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 24px;
+            text-decoration: none;
+            &:hover{
+                background-color: transparent;
+                color: $color-items-nav-hover;
+                text-decoration: none;
+            }  
+        }
+                
+        &-description{
+            color: $color-items-nav;
+            padding: 0px 2px;
+        }   
+    }
+}
+

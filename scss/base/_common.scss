@@ -1,14 +1,22 @@
-body{
-    background-image: url(../../images/bedge_grunge.png);
-    background-size: 100% 100%;
+*{
+    margin: 0px;
+    padding: 0px;
 }
 
-.base-padding {
-    @include padding-10;
-    color: $white;
+.background-body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    background: $gray url(http://bootstrap.oxygenna.com/smartbox/images/backgrounds/bedge_grunge.png);
 }
 
-.text-bold {
-    font-size: 16px;
-    font-weight: 600;
+.custom-container{
+    @extend %custom-container-style;
+}
+
+.light{
+    font-weight: 300;
+}
+
+.footertuani{
+    margin: 55px 0px 74px 71px;
 }

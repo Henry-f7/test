@@ -1,0 +1,76 @@
+.Navbar{
+    bottom: 6px; 
+    left: 118px;
+    padding-top: unset;
+    padding: 6px 0px;
+
+    &-title{        
+        font-family: inherit;
+        font-style: normal;
+        font-size: 30px;
+        font-weight: 900;
+        line-height: 30px;
+        text-shadow: 0 1px 0 $fondo-wh;
+        padding: 10px;
+        margin-left: 35px;
+        
+        & .ligth{
+            font-weight: 300;
+        }
+
+        a{
+            color: $color-logo;
+            text-decoration: none;
+            &:hover{
+                background-color: transparent;
+                color: $color-items-nav-hover;
+                text-decoration: none;
+            }  
+        }
+    }
+    
+    &-items{
+        display: flex;
+        margin: 5px 0px 8px 0px;
+        padding: 0px 0px;
+        a:hover{
+            background-color: transparent;
+            color: $color-items-nav-hover;
+            text-decoration: none;
+        }
+    }
+    
+    & &-submenu{
+        background-color: $background-color-submenu;
+        border-color: $black;
+        font-size: 14px;
+        left: unset;
+        right: 0px;
+        top: 57px;
+        text-shadow: none;
+
+        &-items:hover{
+            background-color: $background-submenu-hover;
+            color: $fondo-wh;
+        }
+
+        &::before{
+            border-style: solid;
+            border-width: 0px 7px 8px 7px;
+            border-color: transparent transparent $background-color-submenu transparent;
+            content: "";
+            display: inline-block;
+            height: 0;
+            padding: 13px 0px 0px -90px !important;
+            position: absolute;
+            right: 11px;
+            top: -6px;
+            width: 0;
+        }
+    }
+
+    & &-link{
+        color: $color-items-nav;
+        margin: 0px 10px;
+    }
+}
