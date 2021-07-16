@@ -2,9 +2,27 @@
     background-color: $fondo-wh;
     box-shadow: 0 0 20px 2px $color-sombra;
     max-width: 1150px;
-    margin-bottom: 40px;
+    margin-bottom: 14px;
     padding: 14px 30px;
     padding-bottom: 77px;
+
+    .section-header{
+        text-align: center;
+        position: relative;
+        border-bottom: 0;
+        margin-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 36px;
+        &::before{
+            left: 30px;
+            @extend %section-header-line;
+        }
+
+        &::after{
+            right: 30px;
+            @extend %section-header-line;
+        }
+    }
     
     &-title{
         font-size: 36px;
@@ -18,7 +36,7 @@
         & .light{
             font-weight: 300;
         }
-    } 
+    }
 }
 
 .Service {
@@ -64,7 +82,7 @@
         right: 0;
         text-shadow: 1px 1px 1px $black;
         top: calc(50% - 26px);
-        text-shadow: 1px 1px 1px black;
+        text-shadow: 1px 1px 1px $black;
         width: 1em;
     }
     &-link{
@@ -75,7 +93,6 @@
         span {
             font-weight: 600;
         }
-
     }
 
     &.web &-image{

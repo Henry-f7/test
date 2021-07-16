@@ -17,6 +17,17 @@
     z-index: 100;
 }
 
+%section-header-line{
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 1px;
+    background-color: $color-line;
+    box-shadow: 0px 1px 0px $fondo-wh;
+    top: 60%;
+    z-index: 0;
+}
+
 @mixin padding-10 {
     padding: 10px;
 }

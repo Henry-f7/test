@@ -6,18 +6,11 @@
 .background-body{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    background: $background-body-color url(http://bootstrap.oxygenna.com/smartbox/images/backgrounds/bedge_grunge.png);
+    background: $gray url(http://bootstrap.oxygenna.com/smartbox/images/backgrounds/bedge_grunge.png);
 }
 
 .custom-container{
     @extend %custom-container-style;
-}
-
-.container-2{
-    @extend %custom-container-style;
-       margin: 32px 0px 0px -49px;
-       width: 1137px;
-       padding: 50px;
 }
 
 .footertuani{

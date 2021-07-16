@@ -10754,7 +10754,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.container-2, .custom-container {
+.custom-container {
   background-color: #fff;
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
   max-width: 1150px;
@@ -10773,6 +10773,17 @@ textarea.form-control-lg {
   z-index: 100;
 }
 
+.Works .section-header::after, .Works .section-header::before, .Services .section-header::after, .Services .section-header::before {
+  content: "";
+  position: absolute;
+  width: 30%;
+  height: 1px;
+  background-color: rgba(107, 107, 107, 0.288);
+  box-shadow: 0px 1px 0px #fff;
+  top: 60%;
+  z-index: 0;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -10784,12 +10795,6 @@ textarea.form-control-lg {
   background: #f2f2f4 url(http://bootstrap.oxygenna.com/smartbox/images/backgrounds/bedge_grunge.png);
 }
 
-.container-2 {
-  margin: 32px 0px 0px -49px;
-  width: 1137px;
-  padding: 50px;
-}
-
 .footertuani {
   margin: 55px 0px 74px 71px;
 }
@@ -10798,9 +10803,23 @@ textarea.form-control-lg {
   background-color: #fff;
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
   max-width: 1150px;
-  margin-bottom: 40px;
+  margin-bottom: 14px;
   padding: 14px 30px;
   padding-bottom: 77px;
+}
+.Services .section-header {
+  text-align: center;
+  position: relative;
+  border-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 36px;
+}
+.Services .section-header::before {
+  left: 30px;
+}
+.Services .section-header::after {
+  right: 30px;
 }
 .Services-title {
   font-size: 36px;
@@ -10852,7 +10871,7 @@ textarea.form-control-lg {
   right: 0;
   text-shadow: 1px 1px 1px rgba(29, 29, 29, 0.795);
   top: calc(50% - 26px);
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px rgba(29, 29, 29, 0.795);
   width: 1em;
 }
 .Service-link {
@@ -10881,6 +10900,83 @@ textarea.form-control-lg {
 }
 .Service.smart .Service-image {
   background-image: url(http://bootstrap.oxygenna.com/smartbox/images/assets/landscapes/landscape-2-d-300x300.jpg);
+}
+
+.Works {
+  background-color: #f2f2f4;
+  padding: 10px 0px;
+  margin: 0px auto;
+}
+.Works .section-header {
+  border-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 36px;
+  padding-bottom: 0;
+  position: relative;
+  text-align: center;
+}
+.Works .section-header::before {
+  left: 30px;
+}
+.Works .section-header::after {
+  right: 30px;
+}
+.Works-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 15px auto;
+  padding: 10px auto;
+  position: relative;
+  right: 0px;
+  text-align: center;
+  top: 7px;
+}
+.Works-title .light {
+  font-weight: 300;
+}
+.Works-carousel {
+  top: 400px;
+}
+.Works-carousel .Works-carousel-indicators {
+  background-color: transparent;
+  border: 2px solid #a5a5a5;
+  border-radius: 10px;
+  height: 10px;
+  margin: 1px 9px;
+  width: 10px;
+}
+.Works-carousel .Works-carousel-indicators.active {
+  background-color: #fff;
+}
+.Works-description {
+  padding: 0px 0px;
+}
+.Works-description-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+.Works-description .Space-icon {
+  padding: 0px 9px;
+}
+.Works-description .style-list {
+  list-style: none;
+}
+.Works-description .style-p {
+  color: #5e5e5e;
+  font-size: 16px;
+  padding: 0px 35px;
+}
+.Works-description .style-link {
+  color: #42576a;
+  text-decoration: none;
+}
+.Works-description .style-link:hover {
+  background-color: transparent;
+  color: #5f7e99;
+  text-decoration: none;
+}
+.Works-description ul {
+  padding: unset;
 }
 
 .Navbar {
