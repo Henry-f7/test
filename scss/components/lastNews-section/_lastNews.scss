@@ -68,17 +68,21 @@
             position: relative;
             text-align: center;
             z-index: 100;
+            &:hover{
+                opacity: .8;
+            }
         }
 
         
         &-icon{
             color: $fondo-wh;
             font-size: 25px;
-            left: 25px;
+            left: 22px;
             position: absolute;
             text-shadow: 1px 1px 1px $black;
             top: 0px;
             z-index: 1000;
+            
         }
         
         &-items{

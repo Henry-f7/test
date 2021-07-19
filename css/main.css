@@ -12033,6 +12033,13 @@ textarea.form-control-lg {
   margin: 55px 0px 74px 71px;
 }
 
+.Mycarouselultimo li {
+  width: 250px;
+  float: left;
+  display: block;
+  list-style: none;
+}
+
 .Services {
   background-color: #fff;
   -webkit-box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.6);
@@ -12396,10 +12403,13 @@ textarea.form-control-lg {
   text-align: center;
   z-index: 100;
 }
+.Latest-news .News .round-box:hover {
+  opacity: 0.8;
+}
 .Latest-news .News-icon {
   color: #fff;
   font-size: 25px;
-  left: 25px;
+  left: 22px;
   position: absolute;
   text-shadow: 1px 1px 1px rgba(29, 29, 29, 0.795);
   top: 0px;
